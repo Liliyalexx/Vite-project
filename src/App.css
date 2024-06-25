@@ -1,0 +1,154 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 100px;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.grandparent{
+  border:solid white;
+  border-width:.2px;
+  display:flex;
+  justify-content: space-around;
+  width:75vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ntab{
+  /* border:solid white; */
+  margin-top:10px;
+  margin-right: 500px;
+   display:flex;
+  flex-wrap:wrap;
+}
+.ntab:hover{
+  /* border:solid white; */
+  width: 20px;
+  margin-top:10px;
+  color:pink;
+}
+.logo{
+  /* border:solid white; */
+  border-width:.2px;
+  border-radius:50%;
+  height:40px;
+}
+
+.mainContainer{
+  /* border:solid purple; */
+  border-width:.2px;
+  display:flex;
+  justify-content: space-between;
+  margin:2em;
+}
+.profilePic{
+  border:double peru;
+  border-width:8px;
+  width:50%;
+  margin:3em;
+}
+.textBox{
+  width:50%;
+}
+.productContainer{
+  border:double peru;
+  margin:1em;
+  padding:1em;
+}
+.product{
+  border:solid #333C3F;
+  padding:1em;
+  align-items: center;
+}
+.p_img{
+  /* border:solid orange; */
+  height:120px;
+  width:90px;
+}
+.p_desc{
+  /* border:solid red; */
+  text-align:center;
+  margin:.2em;
+  font-family:Cinzel;
+}
+.p_price{
+  /* border:solid lime; */
+  text-align:right;
+  color:peru;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:22px;
+
+}
+.starBox{
+  display:flex;
+  justify-content: space-evenly
+}
+.star{
+  height:30px;
+  
+}
+.star:hover{
+  height:30px;
+border:solid lime;
+border-radius:50%;
+}
+.producter{
+  border:solid pink;
+  width:100VH;
+  display:flex;
+  flex-wrap:wrap;
+  height:89VH
+}
+.column{
+  border:solid lime;
+  display:flex;
+  margin:1em;
+  justify-content:space-evenly;
+}
+.p_img{
+  line-height-step:120px;
+  width:90px;
+}
+.navBtns{
+ /* border:solid blue; */
+ width:75%;
+ display: flex;
+ justify-content: space-around;
+ padding-top:15px;
+}
